@@ -23,7 +23,10 @@ namespace Hangman.Controladores
 
 
 
-
+        public static bool Verificar()
+        {
+            return true;
+        }
 
 
 
