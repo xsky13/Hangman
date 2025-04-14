@@ -1,0 +1,15 @@
+C:\Users\bruno\Source\Repos\Hangman\bin\Debug\net9.0\Hangman.exe
+C:\Users\bruno\Source\Repos\Hangman\bin\Debug\net9.0\Hangman.deps.json
+C:\Users\bruno\Source\Repos\Hangman\bin\Debug\net9.0\Hangman.runtimeconfig.json
+C:\Users\bruno\Source\Repos\Hangman\bin\Debug\net9.0\Hangman.dll
+C:\Users\bruno\Source\Repos\Hangman\bin\Debug\net9.0\Hangman.pdb
+C:\Users\bruno\Source\Repos\Hangman\obj\Debug\net9.0\Hangman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Source\Repos\Hangman\obj\Debug\net9.0\Hangman.AssemblyInfoInputs.cache
+C:\Users\bruno\Source\Repos\Hangman\obj\Debug\net9.0\Hangman.AssemblyInfo.cs
+C:\Users\bruno\Source\Repos\Hangman\obj\Debug\net9.0\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Source\Repos\Hangman\obj\Debug\net9.0\Hangman.sourcelink.json
+C:\Users\bruno\Source\Repos\Hangman\obj\Debug\net9.0\Hangman.dll
+C:\Users\bruno\Source\Repos\Hangman\obj\Debug\net9.0\refint\Hangman.dll
+C:\Users\bruno\Source\Repos\Hangman\obj\Debug\net9.0\Hangman.pdb
+C:\Users\bruno\Source\Repos\Hangman\obj\Debug\net9.0\Hangman.genruntimeconfig.cache
+C:\Users\bruno\Source\Repos\Hangman\obj\Debug\net9.0\ref\Hangman.dll
