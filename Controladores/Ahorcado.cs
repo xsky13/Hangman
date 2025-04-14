@@ -8,7 +8,7 @@ namespace Hangman.Controladores
 {
     internal class Ahorcado
     {
-
+        
         public static void Dibujar()
         {
             // bruno
@@ -17,6 +17,9 @@ namespace Hangman.Controladores
         public static void Ingresar()
         {
             // abiel
+            Console.Write("Ingresa letra: ");
+            string nuevaLetra = Console.ReadLine();
+            
         }
     }
 }
