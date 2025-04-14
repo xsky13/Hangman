@@ -45,12 +45,13 @@
             string[] dibujo = {
                 "  _______  ",
                 " |/      |  ",
-                " |      " + (cuerpo > 0 ? " ⚰️" : " "),       // Cabeza (1)
+                " |      " + (cuerpo > 0 ? " O" : " "),       // Cabeza (1)
                 " |     " + (cuerpo > 2 ? " /|\\" : (cuerpo > 1 ? " /|" : "   ")), // Torso y Brazos (2, 3)
                 " |      " + (cuerpo > 4 ? "/ \\" : (cuerpo > 3 ? "/ " : "   ")), // Piernas (4, 5)
                 " |           ",
                 "_|___        "
             };
+            if (cuerpo > 5) { Console.WriteLine(".\r\n..........._____\r\n..../ ../ ....+ ....\\\r\n...| ..| ....RIP ...|\r\n...| ..| ........... |\r\n...|.. | ............|\r\n\\ .| ..|.. ./\\/\\//\\ .|/ "); }
             return string.Join("\n", dibujo);
         }
     }
