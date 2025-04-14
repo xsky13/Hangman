@@ -45,9 +45,9 @@
             string[] dibujo = {
                 "  _______  ",
                 " |/      |  ",
-                " |      " + (cuerpo > 0 ? " O" : " "),       // Cabeza (1)
+                " |      " + (cuerpo > 0 ? " ⚰️" : " "),       // Cabeza (1)
                 " |     " + (cuerpo > 2 ? " /|\\" : (cuerpo > 1 ? " /|" : "   ")), // Torso y Brazos (2, 3)
-                " |      " + (cuerpo > 4 ? "/ \\" : (cuerpo > 3 ? " / " : "   ")), // Piernas (4, 5)
+                " |      " + (cuerpo > 4 ? "/ \\" : (cuerpo > 3 ? "/ " : "   ")), // Piernas (4, 5)
                 " |           ",
                 "_|___        "
             };
