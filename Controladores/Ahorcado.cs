@@ -19,7 +19,7 @@ namespace Hangman.Controladores
             // abiel
             Console.Write("Ingresa letra: ");
             string nuevaLetra = Console.ReadLine();
-            
+            Palabra.Verificar(nuevaLetra);
         }
     }
 }
