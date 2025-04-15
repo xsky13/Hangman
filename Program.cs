@@ -7,8 +7,8 @@ namespace Hangman
 
         static void CorrerJuego()
         {
-            AhorcadoController.Dibujar();
-            AhorcadoController.ImprimirEpacios([ -1]);
+            //AhorcadoController.Dibujar();
+            //AhorcadoController.ImprimirEpacios([-1]);
             AhorcadoController.Ingresar();
         }
 
