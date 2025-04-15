@@ -11,15 +11,25 @@ namespace Hangman
             AhorcadoController.ImprimirEpacios([ -1], "a");
             AhorcadoController.Ingresar();
         }
-        
-        static void Main(string[] args)
+
+        static void Menu()
         {
+            Console.Clear();
+            Console.Write("Entre una opcion: ");
 
-            Console.WriteLine("1 - Empezar juego");
+            Console.WriteLine("\n\n1 - Empezar juego");
             Console.WriteLine("2 - Agregar palabra");
+            Console.WriteLine("3 - Salir");
 
-            Console.Write("\n\nEntre una opcion: ");
-            int opcion = int.Parse(Console.ReadLine());
+
+            int opcion;
+            if (!int.TryParse(Console.ReadLine(), out opcion))
+            {
+                Console.WriteLine("\nIngrese un numero valido por favor");
+                Console.WriteLine("Toque cualquier tecla para continuar...");
+                Console.ReadKey();
+                Menu();
+            }
 
             switch (opcion)
             {
@@ -35,8 +45,16 @@ namespace Hangman
                         PalabraController.Agregar();
                         break;
                     }
-            
+                case 3: break;
+                default: Menu(); break;
+
             }
+        }
+        
+        static void Main(string[] args)
+        {
+
+            Menu();
         }
 
 
