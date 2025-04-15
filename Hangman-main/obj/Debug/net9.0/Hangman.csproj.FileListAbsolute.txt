@@ -1,0 +1,29 @@
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\bin\Debug\net9.0\Hangman.exe
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\bin\Debug\net9.0\Hangman.deps.json
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\bin\Debug\net9.0\Hangman.runtimeconfig.json
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\bin\Debug\net9.0\Hangman.dll
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\bin\Debug\net9.0\Hangman.pdb
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\Hangman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\Hangman.AssemblyInfoInputs.cache
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\Hangman.AssemblyInfo.cs
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\Hangman.sourcelink.json
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\Hangman.dll
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\refint\Hangman.dll
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\Hangman.pdb
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\Hangman.genruntimeconfig.cache
+C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\ref\Hangman.dll
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\obj\Debug\net9.0\Hangman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\obj\Debug\net9.0\Hangman.AssemblyInfoInputs.cache
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\obj\Debug\net9.0\Hangman.AssemblyInfo.cs
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\obj\Debug\net9.0\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\obj\Debug\net9.0\Hangman.dll
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\obj\Debug\net9.0\refint\Hangman.dll
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\obj\Debug\net9.0\Hangman.pdb
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\bin\Debug\net9.0\Hangman.exe
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\bin\Debug\net9.0\Hangman.deps.json
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\bin\Debug\net9.0\Hangman.runtimeconfig.json
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\bin\Debug\net9.0\Hangman.dll
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\bin\Debug\net9.0\Hangman.pdb
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\obj\Debug\net9.0\Hangman.genruntimeconfig.cache
+C:\Users\bruno\Downloads\ING Software\Hangman-main (1)\Hangman-main\obj\Debug\net9.0\ref\Hangman.dll
