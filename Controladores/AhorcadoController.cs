@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hangman.Controladores
 {
-    internal class Ahorcado
+    internal class AhorcadoController
     {
         
         public static void Dibujar()
@@ -19,7 +19,7 @@ namespace Hangman.Controladores
             // abiel
             Console.Write("Ingresa letra: ");
             string nuevaLetra = Console.ReadLine();
-            Palabra.Verificar(nuevaLetra);
+            PalabraController.Verificar(nuevaLetra);
         }
     }
 }
