@@ -74,6 +74,9 @@ namespace Hangman.Controladores
             string nuevaLetra = Console.ReadLine();
             int[] indices = PalabraController.Verificar(nuevaLetra);
 
+
+            // abiel esto le puse para que se dibuje el coso. si queres tambien hace la logica cuando se gana o se pierde
+            // para ganar tenes que combinar todas las letras ingresadas y compararlas con la palabra a adivinar
             Console.Clear();
             Dibujar();
             ImprimirEpacios(indices, nuevaLetra);
