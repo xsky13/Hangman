@@ -1,5 +1,25 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "WorkspaceRootPath": "C:\\Users\\bruno\\source\\repos\\Hangman\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\bruno\\source\\repos\\hangman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\bruno\\source\\repos\\hangman\\nuevo archivo||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:nuevo archivo||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\bruno\\source\\repos\\hangman\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+=======
+=======
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+>>>>>>> 44e1e4245351d244d98c1f6f30f75fe86d22e461
   "WorkspaceRootPath": "C:\\Users\\melii\\Hangman\\",
   "Documents": [
     {
@@ -7,12 +27,21 @@
       "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:controladores\\palabracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\controladores\\ahorcadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:controladores\\ahorcadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\nuevo archivo||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:nuevo archivo||{8B382828-6202-11D1-8870-0000F87579D2}"
+=======
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+<<<<<<< HEAD
+>>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
+=======
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+>>>>>>> 44e1e4245351d244d98c1f6f30f75fe86d22e461
     }
   ],
   "DocumentGroupContainers": [
@@ -22,16 +51,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\Hangman\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\Hangman\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAlwA0AAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:54:06.096Z",
+=======
+=======
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+          "SelectedChildIndex": 1,
+>>>>>>> 44e1e4245351d244d98c1f6f30f75fe86d22e461
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "AhorcadoController.cs",
               "DocumentMoniker": "C:\\Users\\melii\\Hangman\\Controladores\\AhorcadoController.cs",
               "RelativeDocumentMoniker": "Controladores\\AhorcadoController.cs",
               "ToolTip": "C:\\Users\\melii\\Hangman\\Controladores\\AhorcadoController.cs",
               "RelativeToolTip": "Controladores\\AhorcadoController.cs",
+=======
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\melii\\Hangman\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-14T20:52:16.596Z",
+<<<<<<< HEAD
+>>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
+=======
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+<<<<<<< HEAD
+              "DocumentIndex": 1,
+              "Title": "Nuevo archivo",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\Hangman\\Nuevo archivo",
+              "RelativeDocumentMoniker": "Nuevo archivo",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\Hangman\\Nuevo archivo",
+              "RelativeToolTip": "Nuevo archivo",
+>>>>>>> 44e1e4245351d244d98c1f6f30f75fe86d22e461
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T00:24:11.944Z",
@@ -47,6 +125,7 @@
               "RelativeToolTip": "Nuevo archivo",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+<<<<<<< HEAD
               "WhenOpened": "2025-04-15T00:24:01.927Z",
               "EditorCaption": ""
             },
@@ -62,6 +141,32 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T00:23:02.698Z",
               "EditorCaption": ""
+=======
+              "WhenOpened": "2025-04-14T20:53:55.675Z"
+=======
+=======
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+<<<<<<< HEAD
+              "ToolTip": "C:\\Users\\melii\\Hangman\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:30:10.828Z",
+              "EditorCaption": ""
+>>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
+=======
+              "ToolTip": "C:\\Users\\melii\\Hangman\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:30:10.828Z",
+              "EditorCaption": ""
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+>>>>>>> 44e1e4245351d244d98c1f6f30f75fe86d22e461
             }
           ]
         }
