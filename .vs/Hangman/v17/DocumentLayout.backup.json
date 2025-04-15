@@ -1,15 +1,7 @@
 {
   "Version": 1,
 <<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\Users\\melii\\Hangman\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-=======
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\bruno\\source\\repos\\Hangman\\",
   "Documents": [
     {
@@ -22,7 +14,21 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\bruno\\source\\repos\\hangman\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
->>>>>>> 46dec88a763fdbc4724ec23ab3a7f736d35019fd
+=======
+=======
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+  "WorkspaceRootPath": "C:\\Users\\melii\\Hangman\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+<<<<<<< HEAD
+>>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
+=======
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
       "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
@@ -34,34 +40,7 @@
         {
           "DockedWidth": 200,
 <<<<<<< HEAD
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\melii\\Hangman\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-14T20:52:16.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\melii\\Hangman\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAqwAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T20:30:10.828Z",
-              "EditorCaption": ""
-=======
+<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -75,10 +54,32 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAlwA0AAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T20:54:06.096Z",
+=======
+=======
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\melii\\Hangman\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-14T20:52:16.596Z",
+<<<<<<< HEAD
+>>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
+=======
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "Nuevo archivo",
               "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\Hangman\\Nuevo archivo",
@@ -100,7 +101,29 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-14T20:53:55.675Z"
->>>>>>> 46dec88a763fdbc4724ec23ab3a7f736d35019fd
+=======
+=======
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+<<<<<<< HEAD
+              "ToolTip": "C:\\Users\\melii\\Hangman\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:30:10.828Z",
+              "EditorCaption": ""
+>>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
+=======
+              "ToolTip": "C:\\Users\\melii\\Hangman\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:30:10.828Z",
+              "EditorCaption": ""
+>>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
             }
           ]
         }
