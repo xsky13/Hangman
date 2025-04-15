@@ -23,9 +23,9 @@ namespace Hangman.Controladores
 
 
 
-        public static bool Verificar(string letra)
+        public static int Verificar(string letra)
         {
-            return true;
+            return -1;
         }
 
 
