@@ -48,6 +48,7 @@ namespace Hangman.Controladores
             if (values.Length == 0)
             {
                 AhorcadoController.cantidadErrores++;
+                AhorcadoController.letrasEquivocadas = AhorcadoController.letrasEquivocadas.Append(letraIngresada).ToArray();
             }
             return values;
         }
