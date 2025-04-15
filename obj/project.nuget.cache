@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "b3xZkjBaSIA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Abiel Moreno\\Hangman\\Hangman.csproj",
+=======
+  "dgSpecHash": "Kv2LsMRsDZ8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\melii\\Hangman\\Hangman.csproj",
+>>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Abiel Moreno\\Hangman\\Hangman.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\Abiel Moreno\\Hangman\\Hangman.csproj",
         "packagesPath": "C:\\Users\\Abiel Moreno\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Abiel Moreno\\Hangman\\obj\\",
+=======
+    "C:\\Users\\melii\\Hangman\\Hangman.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\melii\\Hangman\\Hangman.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\melii\\Hangman\\Hangman.csproj",
+        "projectName": "Hangman",
+        "projectPath": "C:\\Users\\melii\\Hangman\\Hangman.csproj",
+        "packagesPath": "C:\\Users\\melii\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\melii\\Hangman\\obj\\",
+>>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Abiel Moreno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\melii\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
