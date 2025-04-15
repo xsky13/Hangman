@@ -34,8 +34,19 @@ namespace Hangman.Controladores
 
 
 
-        public static int Verificar(string letra)
+        public static int Verificar(string letraIngresada)
         {
+
+            for (int i = 0; i < palabra.Length; i++)
+            {
+                if (letraIngresada == palabra[i])
+                {
+                    return i;
+                } else
+                {
+                    return -1;
+                }
+            }
             return -1;
         }
 

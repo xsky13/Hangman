@@ -8,6 +8,7 @@
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         }
         static void PlayGame()
@@ -56,6 +57,8 @@
 
 }
 =======
+=======
+>>>>>>> 466c8c7fb4c8cc1212aa523cd2688567ef907996
             while (true)
             {
                 Console.Clear();
@@ -133,4 +136,56 @@
         }
     }
 }
+<<<<<<< HEAD
 >>>>>>> 46dec88a763fdbc4724ec23ab3a7f736d35019fd
+=======
+=======
+
+        }
+        static void PlayGame()
+        {
+            string[] words = { "apple", "banana", "cherry" };
+            Random random = new Random();
+            string wordToGuess = words[random.Next(words.Length)];
+            string guessedWord = new string('_', wordToGuess.Length);
+            int attemptsLeft = 6;
+            while (attemptsLeft > 0 && guessedWord != wordToGuess)
+            {
+                Console.WriteLine($"Word to guess: {guessedWord}");
+                Console.WriteLine($"Attempts left: {attemptsLeft}");
+                Console.Write("Enter a letter: ");
+                char guessedLetter = Console.ReadKey().KeyChar;
+                Console.WriteLine();
+                if (wordToGuess.Contains(guessedLetter))
+                {
+                    for (int i = 0; i < wordToGuess.Length; i++)
+                    {
+                        if (wordToGuess[i] == guessedLetter)
+                        {
+                            guessedWord = guessedWord.Remove(i, 1).Insert(i, guessedLetter.ToString());
+                        }
+                    }
+                }
+                else
+                {
+                    attemptsLeft--;
+                    Console.WriteLine($"Wrong guess! '{guessedLetter}' is not in the word.");
+                }
+            }
+            if (guessedWord == wordToGuess)
+            {
+                Console.WriteLine($"Congratulations! You've guessed the word: {wordToGuess}");
+            }
+            else
+            {
+                Console.WriteLine($"Game over! The word was: {wordToGuess}");
+            }
+=======
+            Console.WriteLine("Hello, World! jared");
+>>>>>>> a0965f047fd53445e4fa3e428fbf9af56c31b28b
+        }
+    }
+
+}
+>>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
+>>>>>>> 466c8c7fb4c8cc1212aa523cd2688567ef907996
