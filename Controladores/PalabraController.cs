@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hangman.Controladores
 {
-    internal class Palabra
+    internal class PalabraController
     {
 
 
