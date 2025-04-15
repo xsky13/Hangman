@@ -8,7 +8,7 @@ using Microsoft.VisualBasic;
 
 namespace Hangman.Controladores
 {
-    internal class Palabra
+    internal class PalabraController
     {
         
         public static string[] Palabras = {};
@@ -33,7 +33,10 @@ namespace Hangman.Controladores
 
 
 
-
+        public static int Verificar(string letra)
+        {
+            return -1;
+        }
 
 
 

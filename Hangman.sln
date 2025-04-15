@@ -1,7 +1,19 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 46dec88a763fdbc4724ec23ab3a7f736d35019fd
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35919.96 d17.13
+<<<<<<< HEAD
+=======
+=======
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+>>>>>>> ef6ed6c4377fb92ff92e3bea860a992fd8e8ff2b
+>>>>>>> 46dec88a763fdbc4724ec23ab3a7f736d35019fd
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman.csproj", "{7C702ECB-E259-8288-B51F-23EF491E8272}"
 EndProject
@@ -20,6 +32,14 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {279FCFA2-84A8-4FDD-9102-FDAADD460B75}
+=======
+<<<<<<< HEAD
+		SolutionGuid = {CB86D2CF-5920-4F97-9F9F-A38B8A97C95A}
+=======
+		SolutionGuid = {41B3E5AB-5910-4D86-A45E-5F4768A30CD8}
+>>>>>>> ef6ed6c4377fb92ff92e3bea860a992fd8e8ff2b
+>>>>>>> 46dec88a763fdbc4724ec23ab3a7f736d35019fd
 	EndGlobalSection
 EndGlobal
