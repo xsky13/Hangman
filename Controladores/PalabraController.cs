@@ -12,6 +12,7 @@ namespace Hangman.Controladores
     {
         
         public static string[] Palabras = {};
+        public static string palabra = "";
 
         public static void Agregar()
         {
@@ -38,7 +39,7 @@ namespace Hangman.Controladores
 
             for (int i = 0; i < palabra.Length; i++)
             {
-                if (letraIngresada == palabra[i])
+                if (letraIngresada == palabra[i].ToString())
                 {
                     return i;
                 } else
