@@ -85,7 +85,7 @@ namespace Hangman.Controladores
             //}
         //}
 
-        public static void ImprimirEpacios(int[] indices, string letra)
+        public static void ImprimirEpacios(int[] indices, string? letra)
         {
             foreach (int indice in indices)
             {
