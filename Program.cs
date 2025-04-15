@@ -6,6 +6,7 @@
         
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             while (true)
             {
                 Console.Clear();
@@ -73,6 +74,13 @@
                 };
                 return string.Join("\n", dibujo);
             }
+=======
+<<<<<<< HEAD
+            Console.WriteLine("Hello, pussy.");
+=======
+            Console.WriteLine("Hello, World! jared");
+>>>>>>> c38bd599831da85be8139fd6d012b69eb8eecfec
+>>>>>>> ef6ed6c4377fb92ff92e3bea860a992fd8e8ff2b
         }
     }
 }
