@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
 
         }
         static void PlayGame()
@@ -44,6 +45,9 @@
             {
                 Console.WriteLine($"Game over! The word was: {wordToGuess}");
             }
+=======
+            Console.WriteLine("Hello, World! jared");
+>>>>>>> a0965f047fd53445e4fa3e428fbf9af56c31b28b
         }
     }
 
