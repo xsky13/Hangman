@@ -36,7 +36,7 @@ namespace Hangman.Controladores
 
         public static int[] Verificar(string letraIngresada)
         {
-            int[] values = new int[0];
+            int[] values = {};
             for (int i = 0; i < palabra.Length; i++)
             {
                 if (letraIngresada == palabra[i].ToString())
