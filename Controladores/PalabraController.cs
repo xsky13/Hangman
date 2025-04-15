@@ -12,6 +12,7 @@ namespace Hangman.Controladores
     {
         
         public static string[] Palabras = {};
+        public static string palabra = "";
 
         public static void Agregar()
         {
