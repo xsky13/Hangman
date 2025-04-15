@@ -11,6 +11,8 @@ namespace Hangman.Controladores
         public static string[] Espacios = Enumerable.Repeat("_", PalabraController.palabra.Length).ToArray();
 
         static int cuerpo = 0;
+
+        static int cantidadErrores = 0;
         
         public static void Dibujar()
         {
