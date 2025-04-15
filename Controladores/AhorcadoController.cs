@@ -18,6 +18,37 @@ namespace Hangman.Controladores
         static Personaje ahorcado = new Personaje();
 
 
+        public static void Dibujar()
+        {
+
+            switch (cantidadErrores)
+            {
+                case 1: ahorcado.PiernaIzquierda = false; break;
+                case 2: ahorcado.PiernaDerecha = false; break;
+                case 3: ahorcado.BrazoIzquierda = false; break;
+                case 4: ahorcado.BrazoDerecha = false; break;
+                case 5: ahorcado.Cuerpo = false; break;
+                case 6: ahorcado.Cabeza = false; break;
+            }
+
+            string cabeza = ahorcado.Cabeza ? "o" : " ";
+            string torso = ahorcado.Cuerpo ? "|" : " ";
+            string brazoIzquierdo = ahorcado.BrazoIzquierda ? "/" : " ";
+            string brazoDerecho = ahorcado.BrazoDerecha ? "\\" : " ";
+            string piernaIzquierda = ahorcado.PiernaIzquierda ? "/" : " ";
+            string piernaDerecha = ahorcado.PiernaDerecha ? "\\" : " ";
+
+            string[] dibujo = {
+                "  _______  ",
+                " |/    |   ",
+                $" |     {cabeza}   ",
+                $" |    {brazoIzquierdo}{torso}{brazoDerecho}  ",
+                $" |    {piernaIzquierda} {piernaDerecha} ",
+                " |        ",
+                " |__      "
+                     };
+            Console.WriteLine(string.Join("\n", dibujo));
+        }
 
         public static void ImprimirEpacios(int[]? indices = null, string? letra = null)
         {
@@ -47,7 +78,6 @@ namespace Hangman.Controladores
             Dibujar();
             ImprimirEpacios(indices, nuevaLetra);
 
-            Ingresar();
         }
     }
 }
