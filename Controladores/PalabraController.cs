@@ -39,7 +39,7 @@ namespace Hangman.Controladores
 
             for (int i = 0; i < palabra.Length; i++)
             {
-                if (letraIngresada == palabra[i])
+                if (letraIngresada == palabra[i].ToString())
                 {
                     return i;
                 } else
