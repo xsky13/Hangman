@@ -8,53 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\Users\\Abiel Moreno\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\melii\\.nuget\\packages\\": {},
->>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
-=======
-    "C:\\Users\\melii\\.nuget\\packages\\": {},
->>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+    "C:\\Users\\rekraper88\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Abiel Moreno\\Hangman\\Hangman.csproj",
+      "projectUniqueName": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Hangman.csproj",
       "projectName": "Hangman",
-      "projectPath": "C:\\Users\\Abiel Moreno\\Hangman\\Hangman.csproj",
-      "packagesPath": "C:\\Users\\Abiel Moreno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abiel Moreno\\Hangman\\obj\\",
-=======
-=======
->>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
-      "projectUniqueName": "C:\\Users\\melii\\Hangman\\Hangman.csproj",
-      "projectName": "Hangman",
-      "projectPath": "C:\\Users\\melii\\Hangman\\Hangman.csproj",
-      "packagesPath": "C:\\Users\\melii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\melii\\Hangman\\obj\\",
-<<<<<<< HEAD
->>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
-=======
->>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+      "projectPath": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Hangman.csproj",
+      "packagesPath": "C:\\Users\\rekraper88\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "C:\\Users\\Abiel Moreno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\melii\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
-=======
-        "C:\\Users\\melii\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+        "C:\\Users\\rekraper88\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -81,7 +51,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -102,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -111,7 +81,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\melii\\Hangman\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }

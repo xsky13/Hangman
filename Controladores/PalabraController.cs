@@ -11,12 +11,11 @@ namespace Hangman.Controladores
     internal class PalabraController
     {
         
-        public static string[] Palabras = {};
+        public static string[] Palabras = { "manzana", "casa", "arbol", "colegio" };
         public static string palabra = "";
 
         public static void Agregar()
         {
-            Palabras = new string[] { "manzana", "casa", "arbol","colegio" };
             Console.Clear();
             Console.WriteLine("Ingrese la palabra que quiere agregar");
             string palabra=Console.ReadLine();
@@ -28,26 +27,24 @@ namespace Hangman.Controladores
             string palabraSeleccionada = "";
             Random random = new Random();
             palabraSeleccionada = Palabras[random.Next(Palabras.Length)];
+            Console.WriteLine(palabraSeleccionada);
             return palabraSeleccionada;
         }
 
 
 
 
-        public static int Verificar(string letraIngresada)
+        public static int[] Verificar(string letraIngresada)
         {
-
+            int[] values = new int[0];
             for (int i = 0; i < palabra.Length; i++)
             {
                 if (letraIngresada == palabra[i].ToString())
                 {
-                    return i;
-                } else
-                {
-                    return -1;
+                    values = values.Append(i).ToArray();
                 }
             }
-            return -1;
+            return values;
         }
 
 

@@ -1,27 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "dgSpecHash": "b3xZkjBaSIA=",
+  "dgSpecHash": "VMjOnkh/EMw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Abiel Moreno\\Hangman\\Hangman.csproj",
-=======
-  "dgSpecHash": "Kv2LsMRsDZ8=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\melii\\Hangman\\Hangman.csproj",
->>>>>>> 62a325fb6cc4d1ccc5e173088457c94e3e0c8ff3
-=======
-  "dgSpecHash": "Kv2LsMRsDZ8=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\melii\\Hangman\\Hangman.csproj",
->>>>>>> 1f04c9dd0bf038d8c5b646bca270f810de377e84
+  "projectFilePath": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Hangman.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\melii\\Hangman\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }
