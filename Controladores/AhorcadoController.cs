@@ -105,7 +105,7 @@ namespace Hangman.Controladores
             {
                 Console.Write(e);
             }
->>>>>>> 44e1e4245351d244d98c1f6f30f75fe86d22e461
+
         }
 
         public static void ImprimirEpacios(int indice, string letra) {

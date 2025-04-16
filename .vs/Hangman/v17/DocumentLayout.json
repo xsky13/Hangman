@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Controladores\\PalabraController.cs",
               "ToolTip": "C:\\Users\\melii\\Hangman\\Controladores\\PalabraController.cs",
               "RelativeToolTip": "Controladores\\PalabraController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T02:38:36.096Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Controladores\\AhorcadoController.cs",
               "ToolTip": "C:\\Users\\melii\\Hangman\\Controladores\\AhorcadoController.cs",
               "RelativeToolTip": "Controladores\\AhorcadoController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwF4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T02:37:43.538Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T02:37:08.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T02:37:08.528Z"
             }
           ]
         }

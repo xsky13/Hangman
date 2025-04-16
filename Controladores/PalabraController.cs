@@ -27,7 +27,7 @@ namespace Hangman.Controladores
             string palabraSeleccionada = "";
             Random random = new Random();
             palabraSeleccionada = Palabras[random.Next(Palabras.Length)];
-            Console.WriteLine(palabraSeleccionada);
+            //Console.WriteLine(palabraSeleccionada);
             return palabraSeleccionada;
         }
 
@@ -36,13 +36,19 @@ namespace Hangman.Controladores
 
         public static int[] Verificar(string letraIngresada)
         {
-            int[] values = new int[0];
+            int[] values = {};
             for (int i = 0; i < palabra.Length; i++)
             {
                 if (letraIngresada == palabra[i].ToString())
                 {
                     values = values.Append(i).ToArray();
                 }
+            }
+
+            if (values.Length == 0)
+            {
+                AhorcadoController.cantidadErrores++;
+                AhorcadoController.letrasEquivocadas = AhorcadoController.letrasEquivocadas.Append(letraIngresada).ToArray();
             }
             return values;
         }

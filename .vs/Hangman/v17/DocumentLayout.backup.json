@@ -1,18 +1,33 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\melii\\Hangman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\controladores\\ahorcadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:controladores\\ahorcadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\controladores\\palabracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:controladores\\palabracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\controladores\\ahorcadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+  "WorkspaceRootPath": "C:\\Users\\Abiel Moreno\\Hangman\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\abiel moreno\\hangman\\controladores\\ahorcadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:controladores\\ahorcadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\abiel moreno\\hangman\\controladores\\palabracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:controladores\\palabracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\abiel moreno\\hangman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 587589111710e51039c20b28bbf6ccdf643ab32a
+      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +37,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 1,
+=======
           "SelectedChildIndex": 2,
+>>>>>>> 587589111710e51039c20b28bbf6ccdf643ab32a
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "PalabraController.cs",
+<<<<<<< HEAD
+              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\Controladores\\PalabraController.cs",
+              "RelativeDocumentMoniker": "Controladores\\PalabraController.cs",
+              "ToolTip": "C:\\Users\\melii\\Hangman\\Controladores\\PalabraController.cs",
+              "RelativeToolTip": "Controladores\\PalabraController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T02:38:36.096Z",
+=======
+              "DocumentMoniker": "C:\\Users\\Abiel Moreno\\Hangman\\Controladores\\PalabraController.cs",
+              "RelativeDocumentMoniker": "Controladores\\PalabraController.cs",
+              "ToolTip": "C:\\Users\\Abiel Moreno\\Hangman\\Controladores\\PalabraController.cs",
+              "RelativeToolTip": "Controladores\\PalabraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:08:59.071Z",
+>>>>>>> 587589111710e51039c20b28bbf6ccdf643ab32a
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 0,
               "Title": "AhorcadoController.cs",
               "DocumentMoniker": "C:\\Users\\melii\\Hangman\\Controladores\\AhorcadoController.cs",
               "RelativeDocumentMoniker": "Controladores\\AhorcadoController.cs",
               "ToolTip": "C:\\Users\\melii\\Hangman\\Controladores\\AhorcadoController.cs",
               "RelativeToolTip": "Controladores\\AhorcadoController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwF4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T00:24:11.944Z",
+              "WhenOpened": "2025-04-15T02:37:43.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PalabraController.cs",
-              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\Controladores\\PalabraController.cs",
-              "RelativeDocumentMoniker": "Controladores\\PalabraController.cs",
-              "ToolTip": "C:\\Users\\melii\\Hangman\\Controladores\\PalabraController.cs",
-              "RelativeToolTip": "Controladores\\PalabraController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
+=======
+>>>>>>> 587589111710e51039c20b28bbf6ccdf643ab32a
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abiel Moreno\\Hangman\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+<<<<<<< HEAD
+              "ToolTip": "C:\\Users\\melii\\Hangman\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T00:23:02.698Z",
+              "WhenOpened": "2025-04-15T02:37:08.528Z",
+=======
+              "ToolTip": "C:\\Users\\Abiel Moreno\\Hangman\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwC8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T12:03:26.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\melii\\Hangman\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Title": "AhorcadoController.cs",
+              "DocumentMoniker": "C:\\Users\\Abiel Moreno\\Hangman\\Controladores\\AhorcadoController.cs",
+              "RelativeDocumentMoniker": "Controladores\\AhorcadoController.cs",
+              "ToolTip": "C:\\Users\\Abiel Moreno\\Hangman\\Controladores\\AhorcadoController.cs",
+              "RelativeToolTip": "Controladores\\AhorcadoController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAkwGsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T00:43:36.072Z",
+              "WhenOpened": "2025-04-16T11:54:16.416Z",
+>>>>>>> 587589111710e51039c20b28bbf6ccdf643ab32a
               "EditorCaption": ""
             }
           ]
