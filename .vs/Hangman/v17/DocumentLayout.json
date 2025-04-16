@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\rekraper88\\desktop\\c#\\hangman\\hangman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\rekraper88\\desktop\\c#\\hangman\\hangman\\modelos\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:modelos\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Personaje.cs",
-              "DocumentMoniker": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Modelos\\Personaje.cs",
-              "RelativeDocumentMoniker": "Modelos\\Personaje.cs",
-              "ToolTip": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Modelos\\Personaje.cs",
-              "RelativeToolTip": "Modelos\\Personaje.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T21:27:07.284Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -61,7 +45,7 @@
               "RelativeDocumentMoniker": "Controladores\\AhorcadoController.cs",
               "ToolTip": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Controladores\\AhorcadoController.cs",
               "RelativeToolTip": "Controladores\\AhorcadoController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwEQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T15:51:13.264Z",
               "EditorCaption": ""
