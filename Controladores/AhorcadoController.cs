@@ -63,7 +63,13 @@ namespace Hangman.Controladores
             foreach (string e in Espacios)
             {
                 Console.Write(e);
-            }   
+            }
+
+            Console.WriteLine("\nLetras equivocadas: ");
+            for (int i = 0; i < letrasEquivocadas.Length; i++) 
+            {
+                Console.Write(letrasEquivocadas[i]);
+            }
         }
 
         public static void Error(string? mensaje = "Por favor ingrese una letra. Presione cualquier tecla para seguir...")
