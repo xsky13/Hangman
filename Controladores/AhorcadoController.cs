@@ -45,13 +45,18 @@ namespace Hangman.Controladores
                 $" |    {brazoIzquierdo}{torso}{brazoDerecho}  ",
                 $" |    {piernaIzquierda} {piernaDerecha} ",
                 " |        ",
-                " |__      "
+                " |\\      "
                      };
             Console.WriteLine(string.Join("\n", dibujo));
         }
 
         public static void ImprimirEpacios(int[]? indices = null, string? letra = null)
         {
+            Console.Write("\nPalabra: ");
+            if (letrasEquivocadas.Length != 0)
+            {
+                Console.Write("   Letras equivocadas: \n");
+            }
             if (indices != null)
             {
                 foreach (int indice in indices)
@@ -65,10 +70,17 @@ namespace Hangman.Controladores
                 Console.Write(e);
             }
 
-            Console.WriteLine("\nLetras equivocadas: ");
+            Console.Write(new string(' ', ("Palabra: ".Length - PalabraController.palabra.Length) + 3));
+
             for (int i = 0; i < letrasEquivocadas.Length; i++) 
             {
-                Console.Write(letrasEquivocadas[i]);
+                if (i == letrasEquivocadas.Length - 1)
+                {
+                    Console.Write(letrasEquivocadas[i]);
+                } else
+                {
+                    Console.Write(letrasEquivocadas[i] + ", ");
+                }
             }
         }
 
@@ -129,10 +141,36 @@ namespace Hangman.Controladores
             Console.Clear();
             switch (opcion)
             {
-                case 0: Console.WriteLine("PERDISTE"); break;
-                case 1: Console.WriteLine("GANASTE"); break;
+                case 0:
+                    {
+                        int index = 0;
+                        while (index < Console.WindowHeight / 3)
+                        {
+                            Console.WriteLine();
+                            index++;
+                        }
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Program.ImprimirTextoCentrado("PERDISTE", false);
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Program.ImprimirTextoCentrado("La palabra era " + PalabraController.palabra, false);
+
+                        break;
+                    };
+                case 1:
+                    {
+                        int index = 0;
+                        while (index < Console.WindowHeight / 3)
+                        {
+                            Console.WriteLine();
+                            index++;
+                        }
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        Program.ImprimirTextoCentrado("GANASTE", false);
+                        Console.ForegroundColor = ConsoleColor.White;
+                        break;
+                    }
             }
-            Console.WriteLine("Toca cualquier tecla para continuar... ");
+            Program.ImprimirTextoCentrado("Toca cualquier tecla para continuar... ", false);
             Console.ReadKey();
             Program.ResetearJuego();
             Program.Menu();

@@ -17,7 +17,6 @@ namespace Hangman.Controladores
         public static string[] Palabras = { "manzana", "casa", "arbol", "colegio" };
         public static string palabra = "";
 
-        
 
         public static void Agregar()
         {

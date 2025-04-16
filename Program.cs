@@ -30,9 +30,7 @@ namespace Hangman
             string biggest0Word = "";
             string biggest1Word = "";
 
-            int anchoTabla = (biggest0Word.Length + 2) + (biggest1Word.Length + 2) + 3;
-            float espacio = (float)((Console.WindowWidth - anchoTabla) / 2.37);
-            string espacios = new string(' ', (int)espacio);
+            
 
 
             // loop para encontrar la palabra mas grande
@@ -49,6 +47,9 @@ namespace Hangman
                 }
             }
 
+            int anchoTabla = (biggest0Word.Length + 2) + (biggest1Word.Length + 2) + 3;
+            float espacio = (float)((Console.WindowWidth - anchoTabla) / 2);
+            string espacios = new string(' ', (int)espacio);
 
             Console.Write(espacios + '╔' + new string('═', biggest0Word.Length + 2) + "╦");
             Console.Write(new string('═', biggest1Word.Length + 2) + '╗');
@@ -82,7 +83,7 @@ namespace Hangman
 
         public static void ImprimirTextoCentrado(string texto, bool? write = true)
         {
-            string espacios = new string(' ', (int)(Console.WindowWidth / 2.37));
+            string espacios = new string(' ', (int)(Console.WindowWidth / 2) - texto.Length/2);
             if ((bool)write)
             {
                 Console.Write(espacios + texto);
