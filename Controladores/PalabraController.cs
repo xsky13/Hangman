@@ -4,8 +4,10 @@ using System.Data;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.VisualBasic;
+using System.Linq;
 
 namespace Hangman.Controladores
 {
@@ -14,6 +16,8 @@ namespace Hangman.Controladores
         
         public static string[] Palabras = { "manzana", "casa", "arbol", "colegio" };
         public static string palabra = "";
+
+        
 
         public static void Agregar()
         {
@@ -28,11 +32,30 @@ namespace Hangman.Controladores
                 Console.ReadKey(true);
                 Agregar();
             }
+
+            if (!Regex.IsMatch(palabra, @"^[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]+$"))
+            {
+                Console.Clear();
+                Console.WriteLine("La palabra solo puede contener letras");
+                Console.WriteLine("Apriete cualquier tecla para continuar");
+                Console.ReadKey(true);
+                Agregar();
+            }
+
             Palabras = Palabras.Append(palabra).ToArray();
             Console.Clear();
-            Console.WriteLine("Se agrego " + palabra);
-            Console.WriteLine("1 - Volver al menu");
-            Console.WriteLine("2 - Añadir otra palabra");
+            Program.ImprimirTextoCentrado("Se agrego " + palabra);
+
+            string[][] filas = {
+                new string[] {"Boton", "Accion" },
+                new string[] {"1", "Volver al menu" },
+                new string[] {"2", "Añadir otra palabra" },
+            };
+
+            Program.ImprimirTabla(filas);
+            Console.WriteLine();
+            Program.ImprimirTextoCentrado("Eliga una opcion: ");
+
             int nroOpcion = int.Parse(Console.ReadLine());
             switch (nroOpcion) 
             { 
