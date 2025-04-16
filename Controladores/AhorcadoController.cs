@@ -63,9 +63,15 @@ namespace Hangman.Controladores
             foreach (string e in Espacios)
             {
                 Console.Write(e);
-            }
+            }   
+        }
 
-            
+        public static void Error(string? mensaje = "Por favor ingrese una letra. Presione cualquier tecla para seguir...")
+        {
+            Console.WriteLine(mensaje);
+            Console.ReadKey(true);
+
+            Ingresar();
         }
 
         public static void Ingresar()
@@ -74,12 +80,14 @@ namespace Hangman.Controladores
             Console.Write("\n\nIngresa letra: ");
             string nuevaLetra = Console.ReadLine();
 
-            if (nuevaLetra.Length > 1)
+            if (nuevaLetra == null)
             {
-                Console.WriteLine("Solo se puede ingresar una letra. Presione cualquier tecla para seguir...");
-                Console.ReadKey(true);
+                Error();
+            }
 
-                Ingresar();
+            if (nuevaLetra.Length != 1)
+            {
+                Error();
             }
 
             int[] indices = PalabraController.Verificar(nuevaLetra);
