@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -18,8 +19,17 @@ namespace Hangman.Controladores
         {
             Console.Clear();
             Console.WriteLine("Ingrese la palabra que quiere agregar");
-            string palabra=Console.ReadLine();
+            string palabra = Console.ReadLine();
             Palabras = Palabras.Append(palabra).ToArray();
+            Console.WriteLine("Se agrego " + palabra);
+            Console.WriteLine("1 - Volver al menu");
+            Console.WriteLine("2 - Añadir otra palabra");
+            int nroOpcion = int.Parse(Console.ReadLine());
+            switch (nroOpcion) 
+            { 
+                case 1: Program.Menu(); break;
+                case 2: Agregar(); break;
+            }
         }
 
         public static string Seleccionar()
@@ -30,9 +40,6 @@ namespace Hangman.Controladores
             //Console.WriteLine(palabraSeleccionada);
             return palabraSeleccionada;
         }
-
-
-
 
         public static int[] Verificar(string letraIngresada)
         {
@@ -47,28 +54,14 @@ namespace Hangman.Controladores
 
             if (values.Length == 0)
             {
-                AhorcadoController.cantidadErrores++;
-                if (AhorcadoController.letrasEquivocadas.First(l => letraIngresada == l).Length != 0)
+                
+                if (AhorcadoController.letrasEquivocadas.Where(l => l == letraIngresada).ToArray().Length == 0)
                 {
                     AhorcadoController.letrasEquivocadas = AhorcadoController.letrasEquivocadas.Append(letraIngresada).ToArray();
+                    AhorcadoController.cantidadErrores++;
                 }
             }
             return values;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
