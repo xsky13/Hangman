@@ -11,11 +11,11 @@ namespace Hangman.Controladores
     {
         public static string[] Espacios = Enumerable.Repeat("_", PalabraController.palabra.Length).ToArray();
 
-<<<<<<< HEAD
+
         public static void Dibujar()
         {
-            
-=======
+
+        }
         static int cuerpo = 0;
         
         public static void Dibujar()
@@ -62,34 +62,37 @@ namespace Hangman.Controladores
 
         }
 
-        //public static string DibujarAhorcado()
-        //{
-            //if (cuerpo > 6)
-            //{
-            //    Console.WriteLine(".\r\n..........._____\r\n..../ ../ ....+ ....\\\r\n...| ..| ....RIP ...|\r\n...| ..| ........... |\r\n...|.. | ............|\r\n\\ .| ..|.. ./\\/\\//\\ .|/ ");
-            //    return "";
-            //}
-            //else
-            //{
-            //    string cabeza = cuerpo > 0 ? "O" : " ";
-            //    string torso = cuerpo > 1 ? "|" : " ";
-            //    string brazoIzquierdo = cuerpo > 2 ? "/" : " ";
-            //    string brazoDerecho = cuerpo > 3 ? "\\" : " ";
-            //    string piernaIzquierda = cuerpo > 4 ? "/" : " ";
-            //    string piernaDerecha = cuerpo > 5 ? "\\" : " ";
+        public static string DibujarAhorcado()
+        {
+            if (cuerpo > 6)
+            {
+                Console.WriteLine(".\r\n..........._____\r\n..../ ../ ....+ ....\\\r\n...| ..| ....RIP ...|\r\n...| ..| ........... |\r\n...|.. | ............|\r\n\\ .| ..|.. ./\\/\\//\\ .|/ ");
 
-            //    string[] dibujo = {
-            //        "  _______  ",
-            //        " |/     |   ",
-            //        $" |      {cabeza} ",
-            //        $" |     {brazoIzquierdo}{torso}{brazoDerecho} ",
-            //        $" |     {piernaIzquierda} {piernaDerecha}",
-            //        " |          ",
-            //        "_|___       "
-            //    };
-            //    return string.Join("\n", dibujo);
-            //}
-        //}
+            }
+            else
+            {
+                string cabeza = cuerpo > 0 ? "O" : " ";
+                string torso = cuerpo > 1 ? "|" : " ";
+                string brazoIzquierdo = cuerpo > 2 ? "/" : " ";
+                string brazoDerecho = cuerpo > 3 ? "\\" : " ";
+                string piernaIzquierda = cuerpo > 4 ? "/" : " ";
+                string piernaDerecha = cuerpo > 5 ? "\\" : " ";
+
+                string[] dibujo = {
+                    "  _______  ",
+                    " |/     |   ",
+                    $" |      {cabeza} ",
+                    $" |     {brazoIzquierdo}{torso}{brazoDerecho} ",
+                    $" |     {piernaIzquierda} {piernaDerecha}",
+                    " |          ",
+                    "_|___       "
+                };
+                foreach (string linea in dibujo)
+                {
+                    Console.WriteLine(linea);
+                }
+            }
+        }
 
         public static void ImprimirEpacios(int[] indices, string letra)
         {
