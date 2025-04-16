@@ -27,7 +27,7 @@ namespace Hangman.Controladores
             string palabraSeleccionada = "";
             Random random = new Random();
             palabraSeleccionada = Palabras[random.Next(Palabras.Length)];
-            Console.WriteLine(palabraSeleccionada);
+            //Console.WriteLine(palabraSeleccionada);
             return palabraSeleccionada;
         }
 
@@ -43,6 +43,12 @@ namespace Hangman.Controladores
                 {
                     values = values.Append(i).ToArray();
                 }
+            }
+
+            if (values.Length == 0)
+            {
+                AhorcadoController.cantidadErrores++;
+                AhorcadoController.letrasEquivocadas = AhorcadoController.letrasEquivocadas.Append(letraIngresada).ToArray();
             }
             return values;
         }

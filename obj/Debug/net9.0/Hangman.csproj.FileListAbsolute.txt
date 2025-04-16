@@ -13,3 +13,18 @@ C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\refint\Hangman.d
 C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\Hangman.pdb
 C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\Hangman.genruntimeconfig.cache
 C:\Users\rekraper88\Desktop\c#\Hangman\Hangman\obj\Debug\net9.0\ref\Hangman.dll
+C:\Users\Abiel Moreno\Hangman\bin\Debug\net9.0\Hangman.exe
+C:\Users\Abiel Moreno\Hangman\bin\Debug\net9.0\Hangman.deps.json
+C:\Users\Abiel Moreno\Hangman\bin\Debug\net9.0\Hangman.runtimeconfig.json
+C:\Users\Abiel Moreno\Hangman\bin\Debug\net9.0\Hangman.dll
+C:\Users\Abiel Moreno\Hangman\bin\Debug\net9.0\Hangman.pdb
+C:\Users\Abiel Moreno\Hangman\obj\Debug\net9.0\Hangman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abiel Moreno\Hangman\obj\Debug\net9.0\Hangman.AssemblyInfoInputs.cache
+C:\Users\Abiel Moreno\Hangman\obj\Debug\net9.0\Hangman.AssemblyInfo.cs
+C:\Users\Abiel Moreno\Hangman\obj\Debug\net9.0\Hangman.csproj.CoreCompileInputs.cache
+C:\Users\Abiel Moreno\Hangman\obj\Debug\net9.0\Hangman.sourcelink.json
+C:\Users\Abiel Moreno\Hangman\obj\Debug\net9.0\Hangman.dll
+C:\Users\Abiel Moreno\Hangman\obj\Debug\net9.0\refint\Hangman.dll
+C:\Users\Abiel Moreno\Hangman\obj\Debug\net9.0\Hangman.pdb
+C:\Users\Abiel Moreno\Hangman\obj\Debug\net9.0\Hangman.genruntimeconfig.cache
+C:\Users\Abiel Moreno\Hangman\obj\Debug\net9.0\ref\Hangman.dll

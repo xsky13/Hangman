@@ -8,11 +8,11 @@ namespace Hangman
         static void CorrerJuego()
         {
             AhorcadoController.Dibujar();
-            AhorcadoController.ImprimirEpacios([ -1]);
+            AhorcadoController.ImprimirEpacios([-1]);
             AhorcadoController.Ingresar();
         }
 
-        static void Menu()
+        public static void Menu()
         {
             Console.Clear();
             Console.Write("Entre una opcion: ");
@@ -45,7 +45,7 @@ namespace Hangman
                         PalabraController.Agregar();
                         break;
                     }
-                case 3: break;
+                case 3: return;
                 default: Menu(); break;
 
             }
