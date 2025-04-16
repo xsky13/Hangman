@@ -28,7 +28,7 @@ namespace Hangman.Controladores
                 case 3: ahorcado.BrazoIzquierda = false; break;
                 case 4: ahorcado.BrazoDerecha = false; break;
                 case 5: ahorcado.Cuerpo = false; break;
-                case 6: ahorcado.Cabeza = false; Terminar(0); break;
+                case 6: ahorcado.Cabeza = false; break;
             }
 
             string cabeza = ahorcado.Cabeza ? "o" : " ";
@@ -63,7 +63,13 @@ namespace Hangman.Controladores
             foreach (string e in Espacios)
             {
                 Console.Write(e);
-            }   
+            }
+
+            Console.WriteLine("\nLetras equivocadas: ");
+            for (int i = 0; i < letrasEquivocadas.Length; i++) 
+            {
+                Console.Write(letrasEquivocadas[i]);
+            }
         }
 
         public static void Error(string? mensaje = "Por favor ingrese una letra. Presione cualquier tecla para seguir...")
@@ -92,16 +98,25 @@ namespace Hangman.Controladores
 
             int[] indices = PalabraController.Verificar(nuevaLetra);
 
-
-            // abiel esto le puse para que se dibuje el coso. si queres tambien hace la logica cuando se gana o se pierde
-            // para ganar tenes que combinar todas las letras ingresadas y compararlas con la palabra a adivinar
             Console.Clear();
             Dibujar();
             ImprimirEpacios(indices, nuevaLetra);
+
+            VerificarFin();
+        }
+
+        public static void VerificarFin()
+        {
             string espaciosString = string.Join("", Espacios);
             if (espaciosString == PalabraController.palabra)
             {
                 Terminar(1);
+                //Program.ResetearJuego();
+            }
+            else if (cantidadErrores >= 6)
+            {
+                Terminar(0);
+                //Program.ResetearJuego();
             }
             else
             {
@@ -119,6 +134,7 @@ namespace Hangman.Controladores
             }
             Console.WriteLine("Toca cualquier tecla para continuar... ");
             Console.ReadKey();
+            Program.ResetearJuego();
             Program.Menu();
         }
     }

@@ -1,4 +1,5 @@
 ﻿using Hangman.Controladores;
+using Hangman.Modelos;
 
 namespace Hangman
 {
@@ -7,6 +8,7 @@ namespace Hangman
 
         static void CorrerJuego()
         {
+            Console.Clear();
             AhorcadoController.Dibujar();
             AhorcadoController.ImprimirEpacios([-1]);
             AhorcadoController.Ingresar();
@@ -38,7 +40,7 @@ namespace Hangman
 
                         PalabraController.palabra = PalabraController.Seleccionar();
                         CorrerJuego();
-                        ResetearJuego();
+                        //ResetearJuego();
                         break;
                     }
                 case 2:
@@ -52,11 +54,13 @@ namespace Hangman
 
             }
         }
-        static void ResetearJuego()
+        public static void ResetearJuego()
         {
             AhorcadoController.cantidadErrores = 0;
-            AhorcadoController.letrasEquivocadas = new string[] { };
+            AhorcadoController.letrasEquivocadas = new string[0];
             AhorcadoController.ahorcado= new Personaje();
+            PalabraController.palabra = PalabraController.Seleccionar();
+            AhorcadoController.Espacios = Enumerable.Repeat("_", PalabraController.palabra.Length).ToArray();
         }
 
         static void Main(string[] args)
