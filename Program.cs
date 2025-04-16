@@ -38,6 +38,7 @@ namespace Hangman
 
                         PalabraController.palabra = PalabraController.Seleccionar();
                         CorrerJuego();
+                        ResetearJuego();
                         break;
                     }
                 case 2:
@@ -51,7 +52,13 @@ namespace Hangman
 
             }
         }
-        
+        static void ResetearJuego()
+        {
+            AhorcadoController.cantidadErrores = 0;
+            AhorcadoController.letrasEquivocadas = new string[] { };
+            AhorcadoController.ahorcado= new Personaje();
+        }
+
         static void Main(string[] args)
         {
 

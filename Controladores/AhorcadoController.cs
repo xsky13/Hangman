@@ -15,7 +15,7 @@ namespace Hangman.Controladores
 
         public static string[] letrasEquivocadas = { };
 
-        static Personaje ahorcado = new Personaje();
+        public static Personaje ahorcado = new Personaje();
 
 
         public static void Dibujar()
