@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\melii\\Hangman\\",
+  "WorkspaceRootPath": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\controladores\\ahorcadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\rekraper88\\desktop\\c#\\hangman\\hangman\\controladores\\ahorcadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:controladores\\ahorcadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\melii\\hangman\\controladores\\palabracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\rekraper88\\desktop\\c#\\hangman\\hangman\\controladores\\palabracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:controladores\\palabracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\rekraper88\\desktop\\c#\\hangman\\hangman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|c:\\users\\rekraper88\\desktop\\c#\\hangman\\hangman\\modelos\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C702ECB-E259-8288-B51F-23EF491E8272}|Hangman.csproj|solutionrelative:modelos\\personaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Personaje.cs",
+              "DocumentMoniker": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Modelos\\Personaje.cs",
+              "RelativeDocumentMoniker": "Modelos\\Personaje.cs",
+              "ToolTip": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Modelos\\Personaje.cs",
+              "RelativeToolTip": "Modelos\\Personaje.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T21:27:07.284Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PalabraController.cs",
-              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\Controladores\\PalabraController.cs",
+              "DocumentMoniker": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Controladores\\PalabraController.cs",
               "RelativeDocumentMoniker": "Controladores\\PalabraController.cs",
-              "ToolTip": "C:\\Users\\melii\\Hangman\\Controladores\\PalabraController.cs",
+              "ToolTip": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Controladores\\PalabraController.cs",
               "RelativeToolTip": "Controladores\\PalabraController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:38:17.696Z",
+              "WhenOpened": "2025-04-15T16:10:40.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AhorcadoController.cs",
-              "DocumentMoniker": "C:\\Users\\melii\\Hangman\\Controladores\\AhorcadoController.cs",
+              "DocumentMoniker": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Controladores\\AhorcadoController.cs",
               "RelativeDocumentMoniker": "Controladores\\AhorcadoController.cs",
-              "ToolTip": "C:\\Users\\melii\\Hangman\\Controladores\\AhorcadoController.cs",
+              "ToolTip": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Controladores\\AhorcadoController.cs",
               "RelativeToolTip": "Controladores\\AhorcadoController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T12:35:18.843Z",
+              "WhenOpened": "2025-04-15T15:51:13.264Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rekraper88\\Desktop\\c#\\Hangman\\Hangman\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:37:02.422Z"
             }
           ]
         }
