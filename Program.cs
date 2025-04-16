@@ -43,6 +43,7 @@ namespace Hangman
                 case 2:
                     {
                         PalabraController.Agregar();
+                        Menu();
                         break;
                     }
                 case 3: return;
