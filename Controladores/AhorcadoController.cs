@@ -15,7 +15,7 @@ namespace Hangman.Controladores
 
         public static string[] letrasEquivocadas = { };
 
-        static Personaje ahorcado = new Personaje();
+        public static Personaje ahorcado = new Personaje();
 
 
         public static void Dibujar()
@@ -28,7 +28,7 @@ namespace Hangman.Controladores
                 case 3: ahorcado.BrazoIzquierda = false; break;
                 case 4: ahorcado.BrazoDerecha = false; break;
                 case 5: ahorcado.Cuerpo = false; break;
-                case 6: ahorcado.Cabeza = false; Terminar(0); break;
+                case 6: ahorcado.Cabeza = false; break;
             }
 
             string cabeza = ahorcado.Cabeza ? "o" : " ";
@@ -102,10 +102,19 @@ namespace Hangman.Controladores
             Dibujar();
             ImprimirEpacios(indices, nuevaLetra);
 
+            VerificarFin();
+        }
+
+        public static void VerificarFin()
+        {
             string espaciosString = string.Join("", Espacios);
             if (espaciosString == PalabraController.palabra)
             {
                 Terminar(1);
+            }
+            else if (cantidadErrores >= 6)
+            {
+                Terminar(0);
             }
             else
             {
