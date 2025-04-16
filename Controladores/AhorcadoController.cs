@@ -70,8 +70,18 @@ namespace Hangman.Controladores
 
         public static void Ingresar()
         {
+
             Console.Write("\n\nIngresa letra: ");
             string nuevaLetra = Console.ReadLine();
+
+            if (nuevaLetra.Length > 1)
+            {
+                Console.WriteLine("Solo se puede ingresar una letra. Presione cualquier tecla para seguir...");
+                Console.ReadKey(true);
+
+                Ingresar();
+            }
+
             int[] indices = PalabraController.Verificar(nuevaLetra);
 
 
